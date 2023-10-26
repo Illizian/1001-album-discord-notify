@@ -1,0 +1,6 @@
+name = "1001-album-discord-notify"
+main = "src/index.ts"
+compatibility_date = "2023-10-26"
+
+[triggers]
+crons = [ "0 10 * * *" ]

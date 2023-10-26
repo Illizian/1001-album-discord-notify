@@ -1,0 +1,14 @@
+{
+  "name": "1001-album-discord-notify",
+  "version": "0.0.0",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20231025.0",
+    "typescript": "^5.2.2",
+    "wrangler": "2.16.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev --test-scheduled",
+    "deploy": "wrangler publish"
+  }
+}
