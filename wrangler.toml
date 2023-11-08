@@ -3,4 +3,4 @@ main = "src/index.ts"
 compatibility_date = "2023-10-26"
 
 [triggers]
-crons = [ "0 10 * * *" ]
+crons = [ "0 9 * * mon-fri" ]
